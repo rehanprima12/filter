@@ -26,7 +26,7 @@ _  /  / / / /_/ /_  / _  /___  __/   _  / _  / / /_ /  __/  /
 [+] Author      : Rehan P
 [+] Tool        : MailFilter v
 [+] Description : Filter mailist Gmail, Yahoo, Hotmail
-[+] Usage       : python mailFilter.py nameMailist -o %s''' % (warna.ijo,warna.putih, warna.cetak))#memanggil warna string
+[+] Usage       : python filter.py nameMailist -o %s''' % (warna.ijo,warna.putih, warna.cetak))#memanggil warna string
 
 # variabel regex untuk mencari,membaca, mensortir data gmail yahoo hotmail
 regex = re.compile(r'''(
